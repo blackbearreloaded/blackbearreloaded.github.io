@@ -7,3 +7,5 @@ Edit `index.html` for project content and `style.css` for appearance. GitHub Pag
 ## Credits
 
 Thanks to John Törnblom (ps5-payload-dev) for the [PS5 Payload SDK](https://github.com/ps5-payload-dev/sdk), which much of the PS5 homebrew scene is built on.
+
+This project was developed with AI assistance from OpenAI and/or Anthropic tools.
