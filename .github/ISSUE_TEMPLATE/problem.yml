@@ -1,0 +1,29 @@
+name: "Problem with the site"
+description: "A broken page, link or wrong information"
+title: ""
+labels: ["bug"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        **Before you post**
+
+        - Do not post Sony SDK files, firmware, decrypted system files, keys or links to them.
+  - type: input
+    id: page
+    attributes:
+      label: "Page address"
+    validations:
+      required: true
+  - type: textarea
+    id: what
+    attributes:
+      label: "What is wrong?"
+    validations:
+      required: true
+  - type: input
+    id: browser
+    attributes:
+      label: "Browser and device"
+    validations:
+      required: false
